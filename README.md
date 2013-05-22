@@ -1,6 +1,6 @@
 # Age
 
-TODO: Write a gem description
+Show your age.
 
 ## Installation
 
