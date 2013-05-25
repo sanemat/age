@@ -1,5 +1,10 @@
-require "age/version"
+require 'age/version'
 
-module Age
-  # Your code goes here...
+class Age
+  def initialize(options)
+  end
+
+  def to_i
+    30
+  end
 end
