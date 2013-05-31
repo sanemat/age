@@ -23,4 +23,8 @@ class Age
   def to_i
     years
   end
+
+  def inspect
+    years.inspect
+  end
 end
