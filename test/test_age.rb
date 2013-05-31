@@ -1,6 +1,8 @@
 #coding: utf-8
 require 'minitest/autorun'
 require 'age'
+require 'coveralls'
+Coveralls.wear!
 
 class TestAge < MiniTest::Unit::TestCase
   def test_sanemat
