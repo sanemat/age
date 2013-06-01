@@ -12,14 +12,14 @@ class TestEndWithDateTime < MiniTest::Test
   end
 
   def test_sanemat
-    assert_equal Age.new(birth: @sanemat, end: @today).to_i, 30
+    assert_equal 30, Age.new(birth: @sanemat, end: @today).to_i
   end
 
   def test_ruby
-    assert_equal Age.new(birth: @ruby, end: @today).to_i, 20
+    assert_equal 20, Age.new(birth: @ruby, end: @today).to_i
   end
 
   def test_inspect
-    assert_equal Age.new(birth: @ruby, end: @today).inspect, '20'
+    assert_equal '20', Age.new(birth: @ruby, end: @today).inspect
   end
 end
